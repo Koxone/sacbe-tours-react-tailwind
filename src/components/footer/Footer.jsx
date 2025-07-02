@@ -1,6 +1,8 @@
-// components/Footer.jsx
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { i18n, t } = useTranslation();
+
   return (
     <footer className="mt-14 bg-neutral-900 px-10 py-10 text-neutral-200">
       <div className="mx-auto max-w-7xl space-y-8">
@@ -49,7 +51,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="flex flex-col items-center justify-between gap-4 border-t border-neutral-700 pt-6 sm:flex-row">
-          <p className="text-sm">2025 Sacbé Transfers. All rights reserved.</p>
+          <p className="text-sm">{t("footer.copyright")}</p>
           <div className="flex flex-wrap items-center gap-3">
             <div className="flex items-center gap-2">
               <img
@@ -97,17 +99,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  );
-}
-
-function FooterLink({ href, text }) {
-  return (
-    <a
-      href={href}
-      title={text}
-      className="block text-sm text-neutral-400 transition hover:text-white"
-    >
-      {text}
-    </a>
   );
 }
