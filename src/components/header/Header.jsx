@@ -1,22 +1,23 @@
 import { useTranslation } from "react-i18next";
 import LanguageButton from "../buttons/LanguageButton";
-import { useProjectContext } from "../../context/ProjectContext";
 
 function Header() {
   const { t } = useTranslation();
 
   return (
-    <header className="grid w-full grid-cols-[auto_1fr_auto] items-center justify-between p-5">
-      <button className="max-w-[48px] cursor-pointer rounded-full">
+    <header className="grid w-full grid-cols-2 items-center p-2 md:grid-cols-[1fr_auto_1fr] md:p-5">
+      <button className="mr-auto hidden max-w-[48px] cursor-pointer rounded-full md:block">
         <img
           className="rounded-full object-contain"
           src="/assets/logo.png"
-          alt=""
+          alt="Sacbe Logo Icon"
         />
       </button>
-      <h1 className="text-center text-3xl font-bold">Cancun Tours</h1>
-      <div className="flex gap-4">
-        <button className="btn-pulse w-[200px] cursor-pointer rounded-4xl bg-[#297da9] px-4 py-2 text-xl text-white transition-all duration-300 ease-in-out hover:bg-[#004165]">
+      <h1 className="w-fit justify-self-center text-[30px] font-bold md:text-[32px] lg:text-5xl">
+        Cancun Tours
+      </h1>
+      <div className="flex w-fit items-center gap-4 justify-self-end">
+        <button className="btn-pulse flex cursor-pointer items-center justify-center rounded-sm bg-[#297da9] p-1 text-sm whitespace-nowrap text-white transition-all duration-300 ease-in-out hover:bg-[#004165] md:w-[110px] md:rounded-4xl md:px-4 md:py-2 md:text-base md:whitespace-nowrap lg:w-[160px] xl:w-[200px] xl:text-2xl">
           {t("header.bookButton")}
         </button>
         <LanguageButton />

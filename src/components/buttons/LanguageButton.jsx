@@ -15,8 +15,7 @@ function LanguageButton() {
   return (
     <button
       onClick={toggleLanguage}
-      className="flex h-10 w-fit cursor-pointer items-center justify-center gap-1 rounded-sm border bg-[#297da9] px-2 text-center text-[9px]
-       font-semibold text-white uppercase transition-colors duration-300 hover:bg-[#004165] md:h-[40px] md:w-fit md:px-3 md:text-sm"
+      className="flex w-fit cursor-pointer items-center justify-center gap-1 rounded-sm border bg-[#297da9] p-1 text-center text-sm font-medium tracking-wide text-white uppercase transition-colors duration-300 hover:bg-[#004165] md:h-10 md:w-fit md:px-4 md:text-sm md:font-semibold md:tracking-normal"
     >
       {t("languageButton.button")}
       <img
