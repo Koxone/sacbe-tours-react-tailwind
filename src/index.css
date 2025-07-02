@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* ========================================
+  Animation: Button Pulse (LOOP)
+  ======================================== */
+@keyframes pulseLoop {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+.btn-pulse {
+  animation: pulseLoop 2s infinite;
+}
