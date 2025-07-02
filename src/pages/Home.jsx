@@ -5,7 +5,7 @@ import Menu from "../components/nav/Menu";
 
 function Home() {
   return (
-    <div className="flex flex-col md:gap-14">
+    <div className="flex w-screen flex-col overflow-hidden md:gap-14">
       <div className="h-fit">
         <Menu />
         <MainBanner />

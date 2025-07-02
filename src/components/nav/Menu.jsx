@@ -7,7 +7,7 @@ function Menu() {
   const location = useLocation();
 
   const linkClass = (path) =>
-    `relative text-2xl font-medium text-white px-4 py-2 ${
+    `relative md:text-2xl text-lg font-medium text-white px-4 py-2 ${
       location.pathname === path
         ? "before:absolute before:top-0 before:left-0 before:right-0 before:h-[2px] before:bg-white after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[2px] after:bg-white"
         : ""

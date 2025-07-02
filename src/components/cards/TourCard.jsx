@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function TourCard() {
   return (
     <div
-      className="transform cursor-pointer overflow-hidden rounded-lg shadow-md transition duration-300 hover:scale-105"
+      className="transform min-w-[250px] cursor-pointer overflow-hidden rounded-lg max-w-[400px] shadow-md transition duration-300 hover:scale-105"
       tabIndex="0"
     >
       <Link to="/tour/tour-tulum-2025" className="block">
