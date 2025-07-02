@@ -5,7 +5,7 @@ function AboutUsContainer() {
 
   return (
     <div className="w-full bg-[#297da9] p-5">
-      <h2 className="text-center text-[40px] font-bold text-white">
+      <h2 className="mb-4 text-center text-4xl font-bold text-white md:text-[40px]">
         {t("aboutUs.title")}
       </h2>
       <p className="text-center text-white">
