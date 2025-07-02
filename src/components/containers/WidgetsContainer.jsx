@@ -5,7 +5,7 @@ function WidgetsContainer() {
   const { t } = useTranslation();
 
   return (
-    <div className="flex h-fit flex-col items-center justify-center gap-6 py-10 pl-5 md:gap-12">
+    <div className="flex h-fit flex-col items-center justify-center gap-6 py-10 pr-7 pl-5 md:gap-12">
       <h2 className="text-center text-4xl font-bold md:text-[50px]">
         {t("widgetContainer.title")}
       </h2>
