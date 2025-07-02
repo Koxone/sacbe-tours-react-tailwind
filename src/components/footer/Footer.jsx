@@ -7,46 +7,36 @@ export default function Footer() {
     <footer className="mt-14 bg-neutral-900 px-10 py-10 text-neutral-200">
       <div className="mx-auto max-w-7xl space-y-8">
         {/* Top */}
-        <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
+        <div className="flex items-center justify-between gap-4 sm:flex-row">
           <div className="shrink-0">
-            <img
-              src="/assets/sacbe.svg"
-              alt="Sacbé Transfers"
-              title="Sacbé Transfers"
-              loading="lazy"
-              width={130}
-              height={50}
-              className="h-auto w-[130px]"
-            />
+            <a href="https://sacbetransfers.com/" target="_blank">
+              <img
+                src="/assets/sacbe.svg"
+                alt="Sacbé Transfers"
+                title="Sacbé Transfers"
+                loading="lazy"
+                width={130}
+                height={50}
+                className="h-auto w-[130px]"
+              />
+            </a>
           </div>
-          <ul className="flex gap-4">
-            <li>
-              <a
-                href="https://www.facebook.com/sacbetransfers"
-                target="_blank"
-                rel="nofollow noopener noreferrer"
-                title="Facebook | Sacbé Transfers"
-                className="transition hover:text-blue-400"
-              >
-                <svg width="25" height="25">
-                  <use xlinkHref="/assets/img/icons.svg#facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/sacbetransfers/"
-                target="_blank"
-                rel="nofollow noopener noreferrer"
-                title="Instagram | Sacbé Transfers"
-                className="transition hover:text-pink-400"
-              >
-                <svg width="25" height="25">
-                  <use xlinkHref="/assets/img/icons.svg#instagram"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          <div className="flex gap-3">
+            <a href="https://www.facebook.com/sacbetransfers" target="_blank">
+              <img
+                className="w-9"
+                src="/assets/facebook.svg"
+                alt="Facebook Icon"
+              />
+            </a>
+            <a href="https://www.instagram.com/sacbetransfers/" target="_blank">
+              <img
+                className="w-10"
+                src="/assets/instagram.svg"
+                alt="Instagram Icon"
+              />
+            </a>
+          </div>
         </div>
 
         {/* Bottom */}
