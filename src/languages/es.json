@@ -15,17 +15,14 @@
     "terms": "Términos y condiciones con el proveedor",
     "download": "Descargando..."
   },
-  "couponMobile": {
-    "valid": "Valido hasta "
+  "aboutUs": {
+    "title": "Sobre Nosotros"
   },
-  "wallet": {
-    "empty": "Tu billetera está vacía",
-    "addCoupon": "Agregar cupón"
+  "widgetContainer": {
+    "title": "Descubre nuestros tours"
   },
-  "promotions": {
-    "title": "Promociones",
-    "welcome": "Bienvenido",
-    "description": "Disfruta de nuestras promociones exclusivas y obtén el mejor valor por tu reservación"
+  "footer": {
+    "copyright": "2025 Sacbé Transfers. Todos los derechos reservados."
   },
   "couponContainer": {
     "welcome": "Bienvenido a nuestra plataforma",
@@ -50,10 +47,5 @@
   "modalComingSoon": {
     "title": "¡Próximamente en este destino!",
     "text": "Estamos preparando algo especial. Vuelve pronto para descubrir todas las ofertas y experiencias que tenemos para ti."
-  },
-  "footer": {
-    "title": "Llega a más clientes",
-    "text": "¡Haz que tus promociones lleguen a miles! Contáctanos y nuestros clientes conocerán tus descuentos",
-    "button": "Copiar"
   }
 }
