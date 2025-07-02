@@ -1,7 +1,9 @@
 import { Link, useLocation } from "react-router-dom";
 import MainBanner from "../banner/MainBanner";
+import { useTranslation } from "react-i18next";
 
 function Menu() {
+  const { t } = useTranslation();
   const location = useLocation();
 
   const linkClass = (path) =>
@@ -15,13 +17,13 @@ function Menu() {
     <div className="w-full bg-[#297da9] px-4 py-4">
       <div className="mx-auto flex max-w-[800px] justify-center gap-10">
         <Link className={linkClass("/")} to="/">
-          Home
+          {t("menu.home")}
         </Link>
         <Link className={linkClass("/tours")} to="/tours">
-          Tours
+          {t("menu.tours")}
         </Link>
         <Link className={linkClass("/contact")} to="/contact">
-          Contact
+          {t("menu.contact")}
         </Link>
       </div>
     </div>

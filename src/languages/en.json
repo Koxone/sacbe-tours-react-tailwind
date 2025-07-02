@@ -1,0 +1,59 @@
+{
+  "language": {
+    "spanish": "Spanish",
+    "english": "English"
+  },
+  "header": {
+    "title": "Cancun Tours",
+    "bookButton": "Book Now"
+  },
+  "menu": {
+    "home": "Home",
+    "tours": "Tours",
+    "contact": "Contact",
+    "description": "Description",
+    "terms": "Terms & Conditions with provider",
+    "download": "Downloading..."
+  },
+  "couponMobile": {
+    "valid": "Valid until "
+  },
+  "wallet": {
+    "empty": "Your wallet is empty",
+    "addCoupon": "Add coupon"
+  },
+  "promotions": {
+    "title": "Promotions",
+    "welcome": "Welcome",
+    "description": "Enjoy our exclusive promotions and Get the best value of your booking"
+  },
+  "couponContainer": {
+    "welcome": "Welcome to our platform",
+    "subtitle": "Get the best discounts easily"
+  },
+  "regionSelector": {
+    "selectRegion": "All Regions",
+    "mexico": "Mexico",
+    "dominicanRepublic": "Dominican Republic",
+    "cancun": "Cancun",
+    "tulum": "Tulum",
+    "losCabos": "Los Cabos",
+    "puertoVallarta": "Puerto Vallarta",
+    "puntaCana": "Punta Cana"
+  },
+  "languageButton": {
+    "button": "English"
+  },
+  "couponV3": {
+    "button": "View Details"
+  },
+  "modalComingSoon": {
+    "title": "Coming Soon to this destination",
+    "text": "We're preparing something special. Check back soon to discover all the offers and experiences we have for you."
+  },
+  "footer": {
+    "title": "Reach more customers",
+    "text": "Reach thousands with your promotions! Contact us and let our customers discover your discounts.",
+    "button": "Copy"
+  }
+}
