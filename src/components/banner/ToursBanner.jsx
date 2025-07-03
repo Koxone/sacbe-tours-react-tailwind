@@ -2,7 +2,7 @@ import ToursVideoCard from "../cards/ToursVideoCard";
 
 function ToursBanner() {
   return (
-    <div className="grid items-center justify-center gap-10 border border-black bg-[var(--color-sacbe)] p-4 text-white md:grid-cols-[auto_auto] md:px-10 md:py-4">
+    <div className="grid items-center justify-center gap-10 bg-[var(--color-sacbe)] p-4 text-white md:grid-cols-[auto_auto] md:px-10 md:py-4">
       <div className="mx-auto w-full max-w-3xl">
         <div className="w-full text-center md:p-6">
           <h1 className="mb-4 text-5xl md:text-4xl md:font-bold">
