@@ -26,7 +26,7 @@ function ToursPricing() {
         tarifas aplicables
       </p>
 
-      {/* Botones desktop */}
+      {/* Desktop Buttons */}
       <div className="mb-4 hidden flex-wrap justify-center gap-2 md:flex">
         {ranges.map((range, index) => (
           <button

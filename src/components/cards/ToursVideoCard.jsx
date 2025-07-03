@@ -6,7 +6,6 @@ function ToursVideoCard() {
   useEffect(() => {
     const isMobile = /Mobi|Android/i.test(navigator.userAgent);
 
-    // Si NO es móvil, reproducir automáticamente
     if (!isMobile && videoRef.current) {
       videoRef.current.play();
     }
@@ -19,7 +18,6 @@ function ToursVideoCard() {
         src="/assets/pruebaBanner.mp4"
         muted
         loop
-        // quitamos autoplay aquí
         className="hidden h-full max-h-[240px] w-full max-w-[500px] cursor-pointer overflow-hidden rounded-lg border-2 border-black object-cover md:block"
       />
     </div>

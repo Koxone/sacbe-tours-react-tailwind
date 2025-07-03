@@ -19,7 +19,7 @@ function TourCard() {
   }, []);
 
   return (
-    <div className="h-[500px] w-full  max-w-5xl overflow-hidden">
+    <div className="h-[500px] w-full max-w-5xl overflow-hidden">
       <div
         ref={widgetRef}
         className="bokunWidget h-fit max-w-[300px]"
