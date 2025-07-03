@@ -13,6 +13,10 @@ body {
   box-sizing: inherit;
 }
 
+:root {
+  --color-sacbe: #297da9;
+}
+
 /* ========================================
   Animation: Button Pulse (LOOP)
   ======================================== */

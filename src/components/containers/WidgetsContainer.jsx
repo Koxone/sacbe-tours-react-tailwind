@@ -11,21 +11,7 @@ function WidgetsContainer() {
       </h2>
 
       <div className="w-full overflow-x-auto">
-        <div className="flex gap-4 p-4">
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
+        <div className="flex gap-4 p-4 justify-center">
           <TourCard />
         </div>
       </div>
