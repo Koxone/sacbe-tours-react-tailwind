@@ -26,12 +26,7 @@ function ToursBanner() {
             Adulto $2,641.<sup>00</sup> Mxn
           </p>
           <div className="flex justify-center">
-            <button
-              className="bokunButton rounded-full bg-[#009db0] px-6 py-3 font-semibold text-white transition hover:bg-[#007a8a]"
-              id="bokun_7eee0427_8a4d_45b7_8fc9_944543bd280c"
-              data-src="https://widgets.bokun.io/online-sales/a5b17de1-1412-486f-8d5c-497871417eb2/experience-calendar/779551?partialView=1"
-              data-testid="widget-book-button"
-            >
+            <button className="bokunButton cursor-pointer rounded-full bg-[#009db0] px-6 py-3 font-semibold text-white transition hover:bg-[#007a8a]">
               RESERVA YA
             </button>
           </div>
