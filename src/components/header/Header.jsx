@@ -29,10 +29,10 @@ function Header() {
     }`;
 
   return (
-    <header className="grid w-full grid-cols-[1fr_auto] items-center border-b border-blue-100 bg-[#15445e] p-2 px-4 md:grid-cols-[1fr_auto_1fr] md:px-10 md:py-5">
+    <header className="grid w-full grid-cols-[auto_1fr_auto] items-center border-b border-blue-100 bg-[#15445e] p-2 px-4 pb-4 md:grid-cols-[1fr_auto_1fr] md:px-10 md:py-5">
       <Link
         to="/"
-        className="mr-auto hidden max-w-[48px] cursor-pointer rounded-full md:block"
+        className="mr-auto max-w-[48px] cursor-pointer rounded-full md:block"
       >
         <img
           className="rounded-full object-contain"
@@ -41,29 +41,15 @@ function Header() {
         />
       </Link>
 
-      {/* Mobile Menu Button */}
-      {isMobile && (
-        <button
-          className="rounded border border-white w-fit px-3 py-1 text-white"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          {menuOpen ? "Close" : "Menu"}
-        </button>
-      )}
-
       {/* Links Container */}
       <div
         className={`${
           isMobile
-            ? "absolute top-12 left-0 z-50 w-full bg-[#15445e] transition-all duration-300"
+            ? "absolute top-17 left-0 z-50 flex w-full justify-center bg-[#15445e] transition-all duration-300"
             : "mx-auto flex max-w-[800px] justify-center md:gap-10"
         } ${isMobile && (menuOpen ? "max-h-screen py-4" : "max-h-0 overflow-hidden")}`}
       >
-        <div
-          className={`${
-            isMobile ? "flex flex-col items-center gap-4" : "flex"
-          }`}
-        >
+        <div className={`${isMobile ? "flex flex-col items-center gap-4" : "flex"}`}>
           <Link
             className={linkClass("/")}
             to="/"
@@ -88,6 +74,15 @@ function Header() {
       <div className="flex w-fit items-center gap-4 justify-self-end">
         <WhatsappButton />
         <LanguageButton />
+        {/* Mobile Menu Button */}
+        {isMobile && (
+          <button
+            className="w-fit rounded border border-white p-2 text-white"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            <img src="/assets/menu.svg" alt="Menu Icon" className="h-6 w-6" />
+          </button>
+        )}
       </div>
     </header>
   );

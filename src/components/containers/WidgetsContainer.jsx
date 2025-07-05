@@ -13,12 +13,6 @@ function WidgetsContainer() {
       <div className="w-full overflow-x-auto">
         <div className="flex w-max gap-4 p-4">
           <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
         </div>
       </div>
     </div>

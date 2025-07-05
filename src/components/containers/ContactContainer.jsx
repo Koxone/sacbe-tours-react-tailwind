@@ -8,7 +8,7 @@ export default function ContactContainer() {
         </h2>
         <button
           onClick={() => Tawk_API.toggle()}
-          className="rounded bg-[var(--color-sacbe)] px-6 py-2 text-white transition hover:bg-[#0f3345]"
+          className="cursor-pointer rounded bg-[var(--color-sacbe)] px-6 py-2 text-white transition hover:bg-[#0f3345]"
           title="Take me to the help center"
         >
           Take me to the help center
@@ -44,7 +44,7 @@ export default function ContactContainer() {
         <div>
           <button
             onClick={() => Tawk_API.toggle()}
-            className="w-full rounded bg-[var(--color-sacbe)] px-6 py-2 text-white transition hover:bg-[#0f3345]"
+            className="w-full cursor-pointer rounded bg-[var(--color-sacbe)] px-6 py-2 text-white transition hover:bg-[#0f3345]"
           >
             Live chat
           </button>
