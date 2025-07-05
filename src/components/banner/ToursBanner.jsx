@@ -12,7 +12,7 @@ function ToursBanner() {
             Sea uno de los pocos afortunados que vivió esta experiencia única,
             sólo algunos conocen este lugar ya que el acceso está{" "}
             <span className="relative inline-block rounded bg-[#2fb4e9] px-2 py-0.5 text-white">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"></span>
+              <span className="animate-ping-sacbe absolute top-0 left-0 inline-flex h-full w-full rounded opacity-90"></span>
               limitado a 200 personas por día.
             </span>
           </p>
@@ -26,7 +26,14 @@ function ToursBanner() {
             Adulto $2,641.<sup>00</sup> Mxn
           </p>
           <div className="flex justify-center">
-            <button className="bokunButton cursor-pointer rounded-full bg-[#009db0] px-6 py-3 font-semibold text-white transition hover:bg-[#007a8a]">
+            <button
+              onClick={() =>
+                document
+                  .getElementById("pricing")
+                  .scrollIntoView({ behavior: "smooth" })
+              }
+              className="bokunButton cursor-pointer rounded-full bg-[#009db0] px-6 py-3 font-semibold text-white transition hover:bg-[#007a8a]"
+            >
               RESERVA YA
             </button>
           </div>

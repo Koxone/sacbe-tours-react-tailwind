@@ -5,7 +5,7 @@ function ToursBreadcrumb() {
   const pathnames = location.pathname.split("/").filter((x) => x);
 
   return (
-    <nav className="flex gap-1 rounded border border-neutral-200 bg-neutral-100 p-4 text-sm text-gray-400">
+    <nav className="flex gap-1 bg-neutral-100 p-4 text-sm text-gray-400">
       <Link to="/" className="text-blue-500 hover:underline">
         Inicio
       </Link>

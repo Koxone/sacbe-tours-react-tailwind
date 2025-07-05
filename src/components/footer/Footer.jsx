@@ -1,15 +1,18 @@
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   const { i18n, t } = useTranslation();
+  const navigate = useNavigate();
 
   return (
-    <footer className="mt-14 bg-neutral-900 px-10 py-10 text-neutral-200">
+    <footer className=" bg-neutral-900 px-10 py-10 text-neutral-200">
       <div className="mx-auto max-w-7xl space-y-8">
         {/* Top */}
         <div className="flex items-center justify-between gap-4 sm:flex-row">
           <div className="shrink-0">
-            <a href="https://sacbetransfers.com/" target="_blank">
+            <Link to="/">
               <img
                 src="/assets/sacbe.svg"
                 alt="Sacbé Transfers"
@@ -17,9 +20,9 @@ export default function Footer() {
                 loading="lazy"
                 width={130}
                 height={50}
-                className="h-auto w-[130px]"
+                className="h-auto w-[130px] cursor-pointer"
               />
-            </a>
+            </Link>
           </div>
           <div className="flex gap-3">
             <a href="https://www.facebook.com/sacbetransfers" target="_blank">

@@ -1,5 +1,4 @@
 import { Link, useLocation } from "react-router-dom";
-import MainBanner from "../banner/MainBanner";
 import { useTranslation } from "react-i18next";
 
 function Menu() {

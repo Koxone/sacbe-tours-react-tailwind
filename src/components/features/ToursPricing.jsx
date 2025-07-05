@@ -17,7 +17,7 @@ function ToursPricing() {
   const price = data.pricing[selectedRange];
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-8">
+    <div id="pricing" className="mx-auto max-w-3xl px-4 py-8">
       <h2 className="mb-2 text-center text-2xl font-bold text-[var(--color-sacbe)] md:text-3xl">
         Reserva aquí el tour ecológico a Cancun
       </h2>
