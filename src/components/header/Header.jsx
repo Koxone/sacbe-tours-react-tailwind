@@ -50,6 +50,7 @@ function Header() {
         } ${isMobile && (menuOpen ? "max-h-screen py-4" : "max-h-0 overflow-hidden")}`}
       >
         <div className={`${isMobile ? "flex flex-col items-center gap-4" : "flex"}`}>
+
           <Link
             className={linkClass("/")}
             to="/"
