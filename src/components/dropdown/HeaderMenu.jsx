@@ -23,7 +23,7 @@ export default function HeaderMenu({ className, closeMobileMenu }) {
 
   return (
     <div
-      className={`relative inline-block text-left select-none ${className} ${
+      className={`relative cursor-pointer inline-block text-left select-none ${className} ${
         isMobile ? "" : "group"
       }`}
     >

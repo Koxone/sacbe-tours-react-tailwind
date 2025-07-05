@@ -4,7 +4,7 @@ function AboutUsContainer() {
   const { i18n, t } = useTranslation();
 
   return (
-    <div className="w-full bg-[#297da9] p-5">
+    <div className="w-full md:w-[70%] md:rounded-t-lg bg-[#297da9] p-5">
       <h2 className="mb-4 text-center text-4xl font-bold text-white md:text-[40px]">
         {t("aboutUs.title")}
       </h2>

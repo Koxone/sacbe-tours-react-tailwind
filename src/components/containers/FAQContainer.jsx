@@ -17,7 +17,7 @@ const FAQContainer = () => {
         Obtén respuestas rápidas a todas tus consultas sobre el Tour a Cancun
       </h3>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-        {faqItems.map((item, index) => (
+        {faqItems.map((item) => (
           <FAQCard
             title={item.title}
             revealed={item.content}

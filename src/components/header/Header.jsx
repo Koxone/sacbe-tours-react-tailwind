@@ -79,7 +79,7 @@ function Header() {
         {/* Mobile Menu Button */}
         {isMobile && (
           <button
-            className="w-fit rounded border border-white p-2 text-white"
+            className="w-fit cursor-pointer rounded border border-white p-2 text-white"
             onClick={() => setMenuOpen(!menuOpen)}
           >
             <img src="/assets/menu.svg" alt="Menu Icon" className="h-6 w-6" />
