@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 function AboutUsContainer() {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="w-full md:w-[70%] md:rounded-t-lg bg-[#297da9] p-5">
