@@ -4,7 +4,7 @@ import WidgetsContainer from "../components/containers/WidgetsContainer";
 
 function Home() {
   return (
-    <div className="flex w-full flex-col items-center overflow-x-hidden md:gap-1">
+    <div className="flex w-screen md:w-full max-w-full flex-col items-center overflow-x-hidden md:gap-1">
       <div className="h-fit w-full">
         <MainBanner />
       </div>

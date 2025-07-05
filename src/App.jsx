@@ -3,6 +3,7 @@ import "./index.css";
 import Layout from "./styles/Layout";
 import Home from "./pages/Home";
 import Tours from "./pages/Tours";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Route path="/tours/cancun" element={<Tours />} />
           <Route path="/tours/playa-del-carmen" element={<Tours />} />
           <Route path="/tours/tulum" element={<Tours />} />
-          <Route path="/contact" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Layout>
     </Router>

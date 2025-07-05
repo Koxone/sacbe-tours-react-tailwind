@@ -16,12 +16,9 @@ function ToursBanner() {
               limitado a 200 personas por día.
             </span>
           </p>
-          <p className="mb-4 text-base md:text-lg">
-            <strong>Fruta y pan a bordo</strong> +{" "}
-            <strong>Caminata ecológica guiada</strong> + BARRA LIBRE + Snorkel +
-            tiempo libre en <strong>Isla Mujeres e Cancun</strong> + Buffet +
-            Transportación
-          </p>
+          <div className="mt-5 mb-5 md:hidden">
+            <ToursVideoCard />
+          </div>
           <p className="mb-6 text-3xl font-bold text-[#ffcc00] md:text-4xl">
             Adulto $2,641.<sup>00</sup> Mxn
           </p>
@@ -39,7 +36,9 @@ function ToursBanner() {
           </div>
         </div>
       </div>
-      <ToursVideoCard />
+      <div className="hidden md:block">
+        <ToursVideoCard />
+      </div>
     </div>
   );
 }

@@ -4,21 +4,21 @@ function ToursVideoCard() {
   const videoRef = useRef(null);
 
   useEffect(() => {
-    const isMobile = /Mobi|Android/i.test(navigator.userAgent);
-
-    if (!isMobile && videoRef.current) {
+    if (videoRef.current) {
       videoRef.current.play();
     }
   }, []);
 
   return (
-    <div className="hidden rounded-lg border-4 bg-white md:block">
+    <div className="rounded-lg border-4 bg-white md:block">
       <video
         ref={videoRef}
         src="/assets/pruebaBanner.mp4"
         muted
         loop
-        className="hidden h-full max-h-[240px] w-full max-w-[500px] cursor-pointer overflow-hidden rounded-lg border-2 border-black object-cover md:block"
+        playsInline
+        autoPlay
+        className="h-full max-h-[240px] w-full max-w-[500px] cursor-pointer overflow-hidden rounded-lg border-2 border-black object-cover md:block"
       />
     </div>
   );
