@@ -9,7 +9,7 @@ function Header() {
   const location = useLocation();
   const linkClass = (path) =>
     `relative md:text-2xl text-lg font-medium text-white px-4 py-2 ${
-      location.pathname === path
+      location.pathname === path || location.pathname.startsWith(`${path}/`)
         ? "before:absolute before:top-0 before:left-0 before:right-0 before:h-[2px] before:bg-white after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[2px] after:bg-white"
         : ""
     }`;
