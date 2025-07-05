@@ -15,7 +15,7 @@ export default function HeaderMenu({ className }) {
       >
         <li
           className="cursor-pointer px-4 py-2 text-base whitespace-nowrap text-black hover:bg-gray-100"
-          onClick={() => navigate("/tours")}
+          onClick={() => navigate("/tours/cancun")}
         >
           Cancun
         </li>

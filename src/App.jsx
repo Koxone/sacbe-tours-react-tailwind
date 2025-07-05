@@ -11,6 +11,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/tours" element={<Tours />} />
+          <Route path="/tours/cancun" element={<Tours />} />
+          <Route path="/tours/playa-del-carmen" element={<Tours />} />
+          <Route path="/tours/tulum" element={<Tours />} />
           <Route path="/contact" element={<Home />} />
         </Routes>
       </Layout>
